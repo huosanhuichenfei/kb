@@ -1,0 +1,19 @@
+{
+  "index": {
+    "number_of_shards": 3,
+    "number_of_replicas": 1,
+    "refresh_interval": "1s"
+  },
+  "analysis": {
+    "analyzer": {
+      "ik_max_word": {
+        "type": "custom",
+        "tokenizer": "ik_max_word"
+      },
+      "ik_smart": {
+        "type": "custom",
+        "tokenizer": "ik_smart"
+      }
+    }
+  }
+}

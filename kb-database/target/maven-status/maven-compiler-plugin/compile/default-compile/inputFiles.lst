@@ -1,0 +1,5 @@
+D:\project\flowable\kb-database\src\main\java\com\knowledge\dto\ChunkSearchDTO.java
+D:\project\flowable\kb-database\src\main\java\com\knowledge\config\KbDatabaseAutoConfiguration.java
+D:\project\flowable\kb-database\src\main\java\com\knowledge\mapper\ChunkMapper.java
+D:\project\flowable\kb-database\src\main\java\com\knowledge\entity\Chunk.java
+D:\project\flowable\kb-database\src\main\java\com\knowledge\handler\PgVectorTypeHandler.java

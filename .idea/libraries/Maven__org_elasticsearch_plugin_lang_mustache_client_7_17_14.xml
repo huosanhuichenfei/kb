@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.elasticsearch.plugin:lang-mustache-client:7.17.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../maven/3.6.1/lib/org/elasticsearch/plugin/lang-mustache-client/7.17.14/lang-mustache-client-7.17.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../maven/3.6.1/lib/org/elasticsearch/plugin/lang-mustache-client/7.17.14/lang-mustache-client-7.17.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../maven/3.6.1/lib/org/elasticsearch/plugin/lang-mustache-client/7.17.14/lang-mustache-client-7.17.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a964726f-6b06-4db3-ac7a-4d3d5e7dc28c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BUILD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge/config/KbDatabaseAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge/dto/ChunkSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge/entity/Chunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge/handler/PgVectorTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge/mapper/ChunkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-database/src/main/resources/mapper/aaa/ChunkMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-es/src/main/resources/es-settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-service/src/main/java/com/knowledge/service/ChunkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/src/main/java/com/knowledge/KnowledgeBaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/src/main/java/com/knowledge/base/controller/VectorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/src/main/resources/application-example.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kb-starter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\3.6.1\lib" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\3.6.1\conf\settings(1).xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="3AWOrSz7VOdU5A8D0nDhW9vCQaw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kb-database/src/main/java/com/knowledge" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\flowable\kb-database\src\main\java\com\knowledge" />
+      <recent name="D:\project\flowable\kb-starter\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\flowable\kb-database\src\main\resources\mapper\aaa" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KnowledgeBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="kb-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.knowledge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.knowledge.KnowledgeBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.KnowledgeBaseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a964726f-6b06-4db3-ac7a-4d3d5e7dc28c" name="Changes" comment="" />
+      <created>1772705097827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772705097827</updated>
+      <workItem from="1772705106475" duration="595000" />
+      <workItem from="1773903674875" duration="8835000" />
+      <workItem from="1773990632487" duration="7612000" />
+      <workItem from="1773998686036" duration="202000" />
+      <workItem from="1773998915629" duration="1031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

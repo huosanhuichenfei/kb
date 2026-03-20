@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kb-service" />
+        <module name="kb-core" />
+        <module name="kb-starter" />
+        <module name="kb-es" />
+        <module name="kb-database" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="kb-core" target="1.8" />
+      <module name="kb-database" target="1.8" />
+      <module name="kb-es" target="1.8" />
+      <module name="kb-service" target="1.8" />
+      <module name="kb-starter" target="1.8" />
+      <module name="knowledge-base-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

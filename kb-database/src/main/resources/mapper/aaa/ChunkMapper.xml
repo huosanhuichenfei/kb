@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.knowledge.mapper.ChunkMapper">
+
+    <!-- 定义结果映射 -->
+    <resultMap id="SearchResultMap" type="com.knowledge.dto.ChunkSearchDTO">
+        <id column="id" property="id"/>
+        <result column="document_id" property="documentId"/>
+        <result column="content" property="content"/>
+        <result column="dept_code" property="deptCode"/>
+        <result column="security_level" property="securityLevel"/>
+        <result column="similarity_score" property="similarityScore"/>
+    </resultMap>
+
+    <!-- 核心搜索 SQL -->
+    <select id="searchSimilar" resultMap="SearchResultMap">
+
+            SELECT
+            id,
+            document_id,
+            content,
+            dept_code,
+            security_level,
+            -- 计算相似度分数: 1 - 余弦距离
+            (1 - (embedding &lt;-> #{queryVector}::vector)) AS similarity_score
+            FROM chunks
+            <where>
+                <if test="deptCode != null and deptCode != ''">
+                    AND dept_code = #{deptCode}
+                </if>
+                <if test="maxSecurityLevel != null">
+                    AND security_level &lt;= #{maxSecurityLevel}
+                </if>
+            </where>
+            -- 排序：距离越小越相似
+            ORDER BY embedding &lt;-> #{queryVector}::vector
+            LIMIT #{limit}
+    </select>
+
+    <select id="searchSimilarByString" resultMap="SearchResultMap">
+            SELECT
+            id, document_id, content, dept_code, security_level,
+            (1 - (embedding &lt;-> #{queryVectorStr}::vector)) AS similarity_score
+            FROM chunks
+            <where>
+                <if test="deptCode != null and deptCode != ''">
+                    AND dept_code = #{deptCode}
+                </if>
+                <if test="maxSecurityLevel != null">
+                    AND security_level &lt;= #{maxSecurityLevel}
+                </if>
+            </where>
+            ORDER BY embedding &lt;-> #{queryVectorStr}::vector
+            LIMIT #{limit}
+    </select>
+
+</mapper>
