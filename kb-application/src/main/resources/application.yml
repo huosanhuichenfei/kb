@@ -1,5 +1,17 @@
 # ==================== 数据源配置 ====================
 spring:
+  ai:
+    ollama:
+      # 内网 Ollama 服务地址（根据实际 IP 和端口修改）
+      base-url: http://122.51.140.219:11434
+      embedding:
+        enabled: true
+        options:
+          # 使用你拉取的模型名称
+          model: nomic-embed-text
+      # 重要：禁止应用启动时自动从外网拉取模型
+      init:
+        pull-model-strategy: never
   datasource:
     url: jdbc:postgresql://122.51.140.219:5432/knowledge_db?currentSchema=public&ssl=false
     username: wangyl

@@ -14,15 +14,17 @@
     <description>知识库基础组件父项目</description>
 
     <modules>
+        <module>kb-application</module>
+        <module>kb-service</module>
         <module>kb-core</module>
         <module>kb-es</module>
         <module>kb-database</module>
-        <module>kb-service</module>
-        <module>kb-starter</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <java.version>1.8</java.version>
         <spring-boot.version>2.7.18</spring-boot.version>
         <elasticsearch.version>7.17.14</elasticsearch.version>
@@ -30,6 +32,8 @@
         <mysql.version>8.0.33</mysql.version>
         <pgsql.version>42.7.3</pgsql.version>
         <hikaricp.version>4.0.3</hikaricp.version>
+        <spring-ai.version>1.0.0-M6</spring-ai.version>
+        <hanlp.version>portable-1.8.4</hanlp.version>
         <lombok.version>1.18.30</lombok.version>
         <slf4j.version>1.7.36</slf4j.version>
     </properties>
@@ -87,6 +91,21 @@
                 <groupId>com.zaxxer</groupId>
                 <artifactId>HikariCP</artifactId>
                 <version>${hikaricp.version}</version>
+            </dependency>
+
+
+            <!-- Spring AI Ollama 支持 -->
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-ollama-spring-boot-starter</artifactId>
+                <version>${spring-ai.version}</version>
+            </dependency>
+
+            <!-- 引入 HanLP 分词组件(Portable 版本，包含数据和算法) -->
+            <dependency>
+                <groupId>com.hankcs</groupId>
+                <artifactId>hanlp</artifactId>
+                <version>${hanlp.version}</version>
             </dependency>
 
             <!-- Lombok -->
@@ -157,7 +176,6 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring-boot.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>

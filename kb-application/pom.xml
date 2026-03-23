@@ -11,11 +11,11 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>kb-starter</artifactId>
+    <artifactId>kb-application</artifactId>
     <packaging>jar</packaging>
 
-    <name>KB Starter</name>
-    <description>知识库 Starter 聚合模块 - 即插即用</description>
+    <name>KB Application</name>
+    <description>知识库 api 聚合模块 - 即插即用</description>
 
     <dependencies>
         <!-- Core 模块 -->

@@ -1,4 +1,4 @@
-package com.knowledge.base.controller;
+package com.knowledge.controller;
 
 import com.knowledge.dto.ChunkSearchDTO;
 import com.knowledge.entity.Chunk;
