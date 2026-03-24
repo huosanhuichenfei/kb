@@ -1,5 +1,0 @@
-com\knowledge\mapper\ChunkMapper.class
-com\knowledge\dto\ChunkSearchDTO.class
-com\knowledge\config\KbDatabaseAutoConfiguration.class
-com\knowledge\handler\PgVectorTypeHandler.class
-com\knowledge\entity\Chunk.class
